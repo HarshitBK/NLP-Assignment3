@@ -45,43 +45,26 @@ F1: 0.9562387940766319
 b.
 **Zero-shot Model Metrics:**
 
-_Squad_v2_: 
-
-_F1_:
-
-_METEOR_:
-
-_BLEU_:
-
-_ROUGE_:
 
 **Fine-tuned Model Metrics:**
 
-_Squad_v2_: 
 
-_F1_:
+# Answer 5
+Number of parameters in pre-trained model: **1,235,814,400**
 
-_METEOR_:
-
-_BLEU_:
-
-_ROUGE_:
-
-**Answer 5**
-Number of parameters in pre-trained model: 1,235,814,400
-
-Number of parameters in fine tuned model of classification SST-2: 1,235,814,400
+Number of parameters in fine tuned model of classification SST-2: **1,235,814,400**
 
 Number of parameters in fine tuned model of classification SQuAD: 
 
 The number of parameters in pre-trained model and fine-tuning model are not same.
 
-**Answer 6**
-Hugging Face link - https://huggingface.co/HarshitBK/FineTuneModel-Llama/tree/main
+# Answer 6
 
-**Answer 7**
+**Hugging Face link** - https://huggingface.co/HarshitBK/FineTuneModel-Llama/tree/main
 
-**Contributions **
+# Answer 7
+
+# Contributions
 1. Harshi - Slected the model and calculated the number of parameters of the selected model.
 2. Rushi - Fine tuned the pre-trained model for SST-2 classification task and calculated the scores of classification metrics.
 3. Hirva - Fine tuned the pre-trained model for SQuAD and calculated the score of its metrics.
