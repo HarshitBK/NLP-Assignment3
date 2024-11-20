@@ -4,6 +4,9 @@
 We have selected the **Llama3.2-1B** model
 
 # Answer 2
+For Llama3.2-1B
+Total Parameters: 1,235,814,400
+Trainable Parameters: 1,235,814,400
 
 # Answer 3 
 a. The fine tuned code of classification SST-2 can be found in the fine-tuningsst2.ipynb
