@@ -54,15 +54,19 @@ Number of parameters in pre-trained model: **1,235,814,400**
 
 Number of parameters in fine tuned model of classification SST-2: **1,235,814,400**
 
-Number of parameters in fine tuned model of classification SQuAD: 
+Number of parameters in fine tuned model of classification SQuAD: **1,235,814,400**
 
-The number of parameters in pre-trained model and fine-tuning model are not same.
+The number of parameters in pre-trained model and fine-tuning model are the same.
 
 # Answer 6
 
 **Hugging Face link** - https://huggingface.co/HarshitBK/FineTuneModel-Llama/tree/main
 
 # Answer 7
+
+a. **Lower or Higher Scores in the Metrics**
+
+
 b. **Understanding from the Number of Parameters Between Pretraining and Fine-Tuning**
 
 Number of parameters remains the same. The model architecture does not change during fine-tuning. 
@@ -70,7 +74,13 @@ The same parameters are adjusted to optimize task-specific objectives. Thus, the
 During fine-tuning, only a subset of the model's pre-trained knowledge is specialized for the target task. 
 This demonstrates how pre-training captures general knowledge, while fine-tuning adapts this knowledge for specific tasks without requiring additional parameters.
 
-c. 
+c.  **Performance Difference for Zero-Shot and Fine-Tuned Models**
+
+The performance of the Llama model in zero-shot and fine-tuned settings has distinct capabilities and limitations. 
+
+In the zero-shot setting, the pre-trained model benefits from its training on diverse datasets, enabling it to handle a wide range of tasks with decent general-purpose knowledge. However, it may struggle with task-specific nuances, such as detecting subtle sentiment shifts in SST-2 or understanding precise contexts in SQuAD questions, leading to errors. 
+
+Fine-tuning the model on task-specific data significantly improves its performance by aligning predictions with the requirements of the task, such as achieving higher accuracy in sentiment analysis or better exact-match scores in question-answering. This specialization allows the model to recognize patterns and linguistic nuances tailored to the task. However, fine-tuning also introduces challenges, such as reduced generalization to out-of-distribution data and the potential for overfitting, which can degrade test performance. 
 
 # Contributions
 1. Harshi - Slected the model and calculated the number of parameters of the selected model.
