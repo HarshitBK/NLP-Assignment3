@@ -63,6 +63,14 @@ The number of parameters in pre-trained model and fine-tuning model are not same
 **Hugging Face link** - https://huggingface.co/HarshitBK/FineTuneModel-Llama/tree/main
 
 # Answer 7
+b. **Understanding from the Number of Parameters Between Pretraining and Fine-Tuning**
+
+Number of parameters remains the same. The model architecture does not change during fine-tuning. 
+The same parameters are adjusted to optimize task-specific objectives. Thus, the total number of trainable parameters remains consistent between the pre-trained and fine-tuned versions.
+During fine-tuning, only a subset of the model's pre-trained knowledge is specialized for the target task. 
+This demonstrates how pre-training captures general knowledge, while fine-tuning adapts this knowledge for specific tasks without requiring additional parameters.
+
+c. 
 
 # Contributions
 1. Harshi - Slected the model and calculated the number of parameters of the selected model.
