@@ -52,11 +52,12 @@ b.
 # Answer 5
 Number of parameters in pre-trained model: **1,235,814,400**
 
-Number of parameters in fine tuned model of classification SST-2: **1,235,814,400**
+Number of parameters in fine tuned model of classification SST-2: **1,235,815,600**
 
-Number of parameters in fine tuned model of classification SQuAD: **1,235,814,400**
+Number of parameters in fine tuned model of classification SQuAD: **1,235,815,900**
 
-The number of parameters in pre-trained model and fine-tuning model are the same.
+The number of parameters in pre-trained model and fine-tuning model are almost same
+with negligible difference. 
 
 # Answer 6
 
@@ -69,7 +70,7 @@ a. **Lower or Higher Scores in the Metrics**
 
 b. **Understanding from the Number of Parameters Between Pretraining and Fine-Tuning**
 
-Number of parameters remains the same. The model architecture does not change during fine-tuning. 
+Number of parameters almost the same with negligible difference. The model architecture does not change during fine-tuning. 
 The same parameters are adjusted to optimize task-specific objectives. Thus, the total number of trainable parameters remains consistent between the pre-trained and fine-tuned versions.
 During fine-tuning, only a subset of the model's pre-trained knowledge is specialized for the target task. 
 This demonstrates how pre-training captures general knowledge, while fine-tuning adapts this knowledge for specific tasks without requiring additional parameters.
