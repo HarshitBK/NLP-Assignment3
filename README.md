@@ -48,7 +48,7 @@ Number of parameters in pre-trained model: **1,235,814,400**
 
 Number of parameters in fine tuned model of classification SST-2: **1,235,815,600**
 
-Number of parameters in fine tuned model of classification SQuAD: **1,235,815,900**
+Number of parameters in fine tuned model of classification SQuAD: **4,098**
 
 The number of parameters in pre-trained model and fine-tuning model are almost same
 with negligible difference. 
@@ -103,9 +103,9 @@ In the zero-shot setting, the pre-trained model benefits from its training on di
 Fine-tuning the model on task-specific data significantly improves its performance by aligning predictions with the requirements of the task, such as achieving higher accuracy in sentiment analysis or better exact-match scores in question-answering. This specialization allows the model to recognize patterns and linguistic nuances tailored to the task. However, fine-tuning also introduces challenges, such as reduced generalization to out-of-distribution data and the potential for overfitting, which can degrade test performance. 
 
 # Contributions
-1. Harshi - Slected the model and calculated the number of parameters of the selected model.
+1. Harshi - Sleected the model and calculated the number of parameters of the selected model.
 2. Rushi - Fine tuned the pre-trained model for SST-2 classification task and calculated the scores of classification metrics.
-3. Hirva - Fine tuned the pre-trained model for SQuAD and calculated the score of its metrics.
+3. Hirva - Fine tuned the pre-trained model for SQuAD and tried to calculate the score of its metrics.
 4. Harshit and Khushal - Calculated the parameters after fine tuning, uploaded it on the hugging face and also answered Q7. 
         Further, created and updated the github repository.
 
