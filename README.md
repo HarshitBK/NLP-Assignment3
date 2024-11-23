@@ -66,7 +66,9 @@ with negligible difference.
 # Answer 7
 
 a. **Lower or Higher Scores in the Metrics**
-1. Zero-Shot Model Metrics
+
+**1. Zero-Shot Model Metrics**
+
 The zero-shot scenario indicates the performance of the model without any task-specific training on the SST2 dataset.
 
 Accuracy (54.58%): The model's overall correctness is relatively low, close to a random guess for binary classification, as it lacks domain-specific adaptation.
@@ -77,7 +79,9 @@ Reason for Lower Scores:
 
 The model is relying on its generalized pre-trained knowledge, which may not align well with the SST2 dataset’s sentiment classification task.
 Lack of exposure to SST2-specific nuances leads to suboptimal classification decisions.
-2. Fine-Tuned Model Metrics
+
+**2. Fine-Tuned Model Metrics**
+
 The fine-tuned scenario indicates the performance after adapting the model specifically to the SST2 dataset.
 
 Accuracy (95.11%): Significant improvement demonstrates that the model has learned task-specific patterns and sentiment-related features.
