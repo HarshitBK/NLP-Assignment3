@@ -42,30 +42,6 @@ Recall: 0.955794504181601
 
 F1: 0.9562387940766319
 
-b.
-**Zero-shot Model Metrics:**
-
-F1 : 0.4138
-
-METEOR : 0.3241
-
-BLEU : 21.4129
-
-ROUGE : 0.3489
-
-Exact score : 0.3726
-
-**Fine-tuned Model Metrics:**
-
-F1 : 0.8401
-
-METEOR : 0.6193
-
-BLEU : 47.4721
-
-ROUGE : 0.6396
-
-Exact score : 0.7916
 
 # Answer 5
 Number of parameters in pre-trained model: **1,235,814,400**
