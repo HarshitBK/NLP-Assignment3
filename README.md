@@ -66,7 +66,28 @@ with negligible difference.
 # Answer 7
 
 a. **Lower or Higher Scores in the Metrics**
+1. Zero-Shot Model Metrics
+The zero-shot scenario indicates the performance of the model without any task-specific training on the SST2 dataset.
 
+Accuracy (54.58%): The model's overall correctness is relatively low, close to a random guess for binary classification, as it lacks domain-specific adaptation.
+Precision (55.54%): The model identifies positive instances with moderate precision, indicating many false positives in its predictions.
+Recall (94.11%): The high recall shows that the model captures almost all positive instances but at the expense of precision. This suggests it labels many instances as positive, resulting in fewer false negatives.
+F1 Score (69.86%): A weighted harmonic mean of precision and recall indicates that the high recall boosts the F1 score but is limited by moderate precision.
+Reason for Lower Scores:
+
+The model is relying on its generalized pre-trained knowledge, which may not align well with the SST2 dataset’s sentiment classification task.
+Lack of exposure to SST2-specific nuances leads to suboptimal classification decisions.
+2. Fine-Tuned Model Metrics
+The fine-tuned scenario indicates the performance after adapting the model specifically to the SST2 dataset.
+
+Accuracy (95.11%): Significant improvement demonstrates that the model has learned task-specific patterns and sentiment-related features.
+Precision (95.67%): High precision indicates the model is much better at avoiding false positives, assigning positive labels more correctly.
+Recall (95.58%): Recall remains high, meaning the model still identifies most positive instances.
+F1 Score (95.62%): A high F1 score indicates a strong balance between precision and recall, showcasing the model’s reliability in handling the task.
+Reason for Higher Scores:
+
+Fine-tuning exposes the model to SST2-specific training data, allowing it to align its weights and representations with the task.
+The model better understands the dataset's context and nuances, leading to a significant reduction in false positives and false negatives.
 
 b. **Understanding from the Number of Parameters Between Pretraining and Fine-Tuning**
 
