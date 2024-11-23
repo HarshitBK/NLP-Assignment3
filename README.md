@@ -14,9 +14,9 @@ Trainable Parameters: 1,235,814,400
 
 # Answer 3 
 
-a. The fine tuned code of classification SST-2 can be found in the fine-tuningsst2.ipynb
+a. The fine tuned code of classification SST-2 can be found in the fine-tuningsst2-1922ee.ipynb
 
-b. The fine tuned code of Question- Answering SQuAD can be found in .ipynb       
+b. The fine tuned code of Question- Answering SQuAD can be found in finetuning-Squad.ipynb    
 
 # Answer 4
 Scores for the metrics on the test split are-
@@ -45,9 +45,27 @@ F1: 0.9562387940766319
 b.
 **Zero-shot Model Metrics:**
 
+F1 : 0.4138
+
+METEOR : 0.3241
+
+BLEU : 21.4129
+
+ROUGE : 0.3489
+
+Exact score : 0.3726
 
 **Fine-tuned Model Metrics:**
 
+F1 : 0.8401
+
+METEOR : 0.6193
+
+BLEU : 47.4721
+
+ROUGE : 0.6396
+
+Exact score : 0.7916
 
 # Answer 5
 Number of parameters in pre-trained model: **1,235,814,400**
